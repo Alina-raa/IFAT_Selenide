@@ -1,11 +1,9 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static org.openqa.selenium.bidi.script.LocalValue.setValue;
 
 public class LoginPage {
     final SelenideElement userInput = $("[name='USER_LOGIN']");
